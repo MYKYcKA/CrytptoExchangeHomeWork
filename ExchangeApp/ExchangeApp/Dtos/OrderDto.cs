@@ -17,8 +17,8 @@ public class OrderDto
     public string Kind { get; set; }
 
     [JsonPropertyName("Amount")]
-    public double Amount { get; set; }
+    public decimal Amount { get; set; }
 
     [JsonPropertyName("Price")]
-    public double Price { get; set; }
+    public decimal Price { get; set; }
 }
