@@ -8,3 +8,5 @@
 /ExchangeApp/ExchangeApp/bin/Debug/net6.0
 /ExchangeApp/ExchangeWebApi/bin/Debug/net6.0
 /ExchangeApp/ExchangeWebApi/obj
+/ExchangeApp/bin/Debug
+/ExchangeApp/obj

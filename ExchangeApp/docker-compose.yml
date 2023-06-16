@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  exchangewebapi:
+    image: ${DOCKER_REGISTRY-}exchangewebapi
+    build:
+      context: .
+      dockerfile: ExchangeWebApi/Dockerfile
