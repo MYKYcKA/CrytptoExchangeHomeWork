@@ -10,3 +10,8 @@
 /ExchangeApp/ExchangeWebApi/obj
 /ExchangeApp/bin/Debug
 /ExchangeApp/obj
+/Common/Common/bin/Debug/net6.0
+/Common/Common/obj
+/ExchangeConsoleApp/.vs
+/ExchangeConsoleApp/bin/Debug/net6.0
+/ExchangeConsoleApp/obj

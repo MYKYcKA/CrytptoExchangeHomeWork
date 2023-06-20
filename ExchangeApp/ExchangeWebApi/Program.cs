@@ -1,6 +1,11 @@
+using Common.Services.FileDataParser;
+using Common.Services.PriceAdviser;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddTransient<IPriceAdviser, PriceAdviser>();
+builder.Services.AddTransient<IFileDataParser, FileDataParser>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
